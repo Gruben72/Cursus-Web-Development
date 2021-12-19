@@ -1,0 +1,80 @@
+ .black-border {
+     margin: 50px 40px 10px 10px;
+     border-color: black;
+     border-style: solid;
+     font: size 60px;
+     padding-top: 10px;
+     padding-right: 5px;
+     padding-bottom: 8px;
+     padding-left: 10px;
+ }
+
+ .menu {
+     list-style-type: none;
+     min-width: 696px;
+     height: 100%;
+     padding-top: 20px;
+
+ }
+
+
+ #green-background {
+     background-color: green;
+     font-size: 30px;
+     color: white
+ }
+
+ .about {
+     font-size: 40px;
+     color: violet;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .pagina-about {
+     background-color: turquoise;
+
+ }
+
+ .rode-rand {
+     margin-top: 15px;
+     margin-right: 5px;
+     margin-bottom: 15px;
+     margin-left: 20px;
+     background-color: white;
+     padding: 10px;
+     border-style: solid;
+     border: width 3px;
+     border-color: rgb(236, 35, 35);
+     color: red
+ }
+
+ .rode-gestreepte-rand {
+
+     padding: 5px;
+     margin: 10px 10px 20px 5px;
+     border-style: dashed;
+ }
+
+
+ @media (min-width: 320px) {
+     h1 {
+         font-size: 90%;
+         background-color: rgb(208, 255, 0);
+     }
+
+
+ }
+
+ @media (min-width: 600px) {
+     h1 {
+         font-size: 120%;
+         background-color: bisque;
+     }
+ }
+
+ @media (min-width: 860px) {
+     h1 {
+         font-size: 120%;
+         background-color: rgb(214, 196, 255);
+     }
+ }
