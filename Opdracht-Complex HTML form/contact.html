@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Naam die je op het tabblad van de browser ziet -->
+    <title> Pagina 2 </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <!-- hier zet je de code in de body tags-->
+        <h1> Contact formulier.</h1>
+        <hr>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Voornaam: <input type="text" name="Voornaam" /></label>
+            </p>
+
+            <p>
+                <label>Achternaam: <input type="text" name="Achternaam" /></label>
+            </p>
+
+            <p>
+                <label>Telefoonnummer: <input type="tel" name="Telefoonnummer" /></label>
+            </p>
+
+            <p>
+                <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label>
+            </p>
+
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+
+            <p>
+                <label>Bericht: <textarea name="Biografie"></textarea></label>
+            </p>
+
+            <p>
+                <label>Upload recept: <input type="file" name="Upload recept" /></label>
+            </p>
+
+
+            <p>
+                <label>Vul uw leeftijd in: <input type="number" name="Leeftijd" min="0" max="110" /></label>
+            </p>
+
+            <p>
+                Wat is uw favoriete keuken</p>
+            <input type="radio" name="eten" value="Frans"> Frans <br>
+            <input type="radio" name="eten" value="Italiaans"> Italiaans <br>
+            <input type="radio" name="eten" value="Spaans"> Spaans <br>
+            <input type="radio" name="eten" value="Arabisch"> Arabisch <br>
+
+            <p>
+                <label>Favoriete kleur keukenschort: <input type="color" name="keukenschort" value="#a52a2a"></label>
+            </p>
+
+            <p>
+                <label>Voer een website URL in: </label>
+                <input type="url" name="website" placeholder="http://example.com">
+            </p>
+
+            <p>
+                <button type="reset">Reset gegevens</button>
+            </p>
+
+            <p>
+                <button type="submit">Verzenden</button>
+            </p>
+
+
+
+        </form>
+
+        <nav>
+            <a href="index.html">Hoofdmenu</a>
+            <a href="https://www.lekkerensimpel.com/" target="_blank">
+                <h1>Receptenwebsite</h1>
+            </a>
+        </nav>
+
+
+
+    </main>
+
+    <footer>
+        Cursus Web Development.
+    </footer>
+
+</body>
+
+</html>
