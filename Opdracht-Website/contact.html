@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Naam die je op het tabblad van de browser ziet -->
+    <title> Contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <div class="kop">
+        <h1>Contact</h1>
+    </div>
+
+    <div class="menu">
+        <a href="index.html">Hoofdmenu</a>
+        <a href="geschiedenis.html">Geschiedenis</a>
+        <a href="evolutie.html">Evolutie</a>
+        <a href="huidig.html">Huidig</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="pagina-contact">
+
+        <h2> Contact formulier.</h2>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p> <label>Voornaam: <input type="text" name="Voornaam" /></label> </p>
+
+            <p> <label>Achternaam: <input type="text" name="Achternaam" /></label> </p>
+
+            <p> <label>Telefoonnummer: <input type="tel" name="Telefoonnummer" /></label> </p>
+
+            <p> <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label> </p>
+
+            <p> <label>Email: <input type="email" name="email" /></label> </p>
+
+            <p> <label>Bericht: <textarea name="Bericht"></textarea></label> </p>
+
+            <p> Wat is uw favoriete flipperkast</p>
+            <input type="radio" name="flipperkast" value="1"> Jurassic Park, Stern <br>
+            <input type="radio" name="flipperkast" value="2"> Avengers: Infinity Quest, Stern <br>
+            <input type="radio" name="flipperkast" value="3"> Medieval Madness, Chigago Gaming Co <br>
+            <input type="radio" name="flipperkast" value="4"> Pirates of the Caribbean, Jersy Jack <br>
+
+            <p>
+                <button type="reset">Reset gegevens</button>
+            </p>
+
+            <p>
+                <button type="submit">Verzenden</button>
+            </p>
+
+        </form>
+    </div>
+
+    <div class="foto">
+<img src="img/wp6994953.jpg" width="332px" height="233px" alt="foto">
+        
+    </div>
+
+    <div class="foot">
+        <p>Cursus Web Development.</p>
+    </div>
+
+</body>
+
+</html>
